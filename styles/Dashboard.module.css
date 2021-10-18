@@ -15,6 +15,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .footer {
@@ -47,7 +48,9 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 1.2em;
+  width: 100%;
+  padding: 25px;
 }
 
 .title,
@@ -58,6 +61,18 @@
 .description {
   line-height: 1.5;
   font-size: 1.5rem;
+}
+
+.rowlogout {
+  width: 100%;
+  text-align: right;
+  padding: 0px 25px;
+}
+
+.rownew {
+  width: 100%;
+  text-align: left;
+  padding: 25px;
 }
 
 .code {
@@ -79,15 +94,14 @@
 }
 
 .card {
-  margin: 1rem;
-  padding: 1.5rem;
   text-align: left;
   color: inherit;
   text-decoration: none;
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
-  width: 60%;
+  width: 10%;
+  font-size: 0.5rem;
 }
 
 .card:hover,
@@ -104,7 +118,7 @@
 
 .card p {
   margin: 0;
-  font-size: 1.25rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 
